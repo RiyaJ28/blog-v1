@@ -1,0 +1,46 @@
+.white-color{
+    color: #F5F5F5;
+}
+.brown-color{
+    color:#3F2305;
+}
+.heading{
+    font-size: 45px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+/*navbar*/
+nav{
+    background-color: #3F2305;
+    color: #F5F5F5;
+}
+nav a{
+    text-decoration: none;
+}
+/*about*/
+.about p{
+    font-size: 18px;
+}
+/*Home*/
+li{
+    text-decoration: none;
+    list-style: none;
+}
+td a{
+    text-decoration: none;
+    list-style: none;
+    color:#3F2305;
+    font-size: 20px;
+}
+
+.btn-color{
+    background-color: #3F2305;
+    color: #F5F5F5;
+}
+
+
+.hover :hover {
+    color:aliceblue;
+}

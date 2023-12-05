@@ -1,0 +1,25 @@
+<%- include("partials/header.ejs") %>
+
+    <title>blog</title>
+
+    <%- include("partials/nav-bar.ejs") %>
+
+        <div class="container m-5">
+            <h1 class="heading brown-color text-center mb-5">Create Post</h1>
+            <form action="/submit" method="post">
+                <div class="mb-3">
+                    <label for="Post-title" class="form-label brown-color">Title</label>
+                    <input type="text" class="form-control" name="title" placeholder="Title">
+                </div>
+                <div class="mb-3">
+                    <label for="content" class="form-label brown-color">Content</label>
+                    <textarea class="form-control" name="content" rows="10"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button type="cancel" class="btn brown-color" >Cancel</button>
+                    <button type="submit" class="btn white-color btn-color">Save</button>
+                </div>
+            </form>
+
+        </div>
+        <%- include("partials/footer.ejs") %>
